@@ -1,0 +1,9 @@
+cache_dir = "/home/hepta/bpm/cache"
+database = "/home/hepta/bpm/bpm/db"
+
+[providers]
+main = "http://localhost:8000/pkg"
+#base = "fs:///home/hepta/bpm/pkgs"
+
+[bpm.mount]
+EXTENSIONS = "/home/hepta/bpm/extensions"

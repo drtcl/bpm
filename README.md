@@ -1,2 +1,2 @@
 # bpm
-B Package Manager
+Bryan's Package Manager

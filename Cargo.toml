@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+    "bpm",
+    "bpmpack",
+    "hash_stream",
+    "httpsearch",
+]
