@@ -1,9 +1,12 @@
-cache_dir = "/home/hepta/bpm/cache"
-database = "/home/hepta/bpm/bpm/db"
+cache_dir = "${BPM}/../../bpm/cache"
+database = "${BPM}/../../bpm/db"
+use_default_target = true
 
 [providers]
 main = "http://localhost:8000/pkg"
 #base = "fs:///home/hepta/bpm/pkgs"
 
-[bpm.mount]
-EXTENSIONS = "/home/hepta/bpm/extensions"
+[mount]
+TARGET = "${BPM}/../../bpm/install"
+EXTENSIONS = "${BPM}/../../bpm/install/extensions"
+#honk       = "${BPM}/../honk"

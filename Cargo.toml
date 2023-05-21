@@ -2,7 +2,9 @@
 
 members = [
     "bpm",
+    "bpmd",
     "bpmpack",
     "hash_stream",
+    "hashdir",
     "httpsearch",
 ]
