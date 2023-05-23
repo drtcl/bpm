@@ -7,4 +7,5 @@ members = [
     "crates/hash_stream",
     "crates/hashdir",
     "crates/httpsearch",
+    "crates/zstd_patch",
 ]
